@@ -1,0 +1,29 @@
+
+# Write out the different classes like <class name> <max people in class> 
+# E.G. Mixles 30
+# So A class named Mixles with a maximum of 30 people
+
+Modern 1 30
+Modern 2 30
+Modern 3 30
+
+Street 1 30
+Street 2 30
+Street 3 30
+
+Mixles 30
+
+Klassiek 30
+
+Hiphop 1 30
+Hiphop 2 30
+Hiphop 3 30
+
+Jazz 1 30
+Jazz 2 30
+Jazz 3 30
+
+Feminine jazz/modern 30
+Feminine hiphop 30
+
+            
