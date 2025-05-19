@@ -139,6 +139,7 @@ def assign_dancers(
         dance_classes=dance_classes
     )
 
+    # Remove previously assigned dancers
     # MUST ensure that dancers in the existing assignment map to dancers in the set
     # Should be ensured in load_existing_assignment()
     for assignment_list in args.assignment.values():

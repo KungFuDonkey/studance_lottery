@@ -1,5 +1,7 @@
 import os
 from studancer import Studancer
+import json
+import datetime
 
 class DanceClass:
 
@@ -97,3 +99,11 @@ def export_assignment(assignment: dict[str, list[Studancer]], export_to_terminal
             print(f"{capitalized_class_name}: {str(students)}")
         
         return
+    
+    if not os.path.exists("output"):
+        os.mkdir("output")
+
+    date = datetime.datetime.now()
+    file_name = "output/output_" + str(date) + ".json"
+    file = open(file_name)
+    json.dump(assignment, file)
